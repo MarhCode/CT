@@ -7,7 +7,7 @@ create table USUARIOS(
 id_usuario int primary key auto_increment,
 nombre_usuario char(40) not null,
 estado_cuenta tinyint not null,
-nacionalidad char(3)
+nacionalidad char(3) not null
 );
 create table PELICULAS_VISTAS(
 id_peliculas_visitas int primary key auto_increment
