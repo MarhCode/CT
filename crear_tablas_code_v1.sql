@@ -10,7 +10,7 @@ estado_cuenta tinyint not null,
 nacionalidad char(3) not null
 );
 create table PELICULAS_VISTAS(
-id_peliculas_visitas int primary key auto_increment
+id_pelicula_visita int primary key auto_increment
 );
 create table VALORACIONES(
 id_valoracion int primary key auto_increment,
